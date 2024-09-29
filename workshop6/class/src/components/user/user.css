@@ -1,0 +1,9 @@
+.user__wrapper {
+  border: 5px solid black;
+  min-width: 520px;
+  margin: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

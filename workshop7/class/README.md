@@ -1,0 +1,4 @@
+# dependencies
+
+styled-components
+sass

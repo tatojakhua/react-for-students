@@ -1,0 +1,11 @@
+.App {
+  margin: 30px;
+  text-align: center;
+  font-size: 2rem;
+}
+.loader {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}

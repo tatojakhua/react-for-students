@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.874);
+  color: #fff;
+}
+.navbar__logo {
+  padding: 10px;
+  font-size: 24px;
+  flex: 2;
+}
+.navbar__linksContainer {
+  list-style: none;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.navbar__linksContainer li {
+  width: 100%;
+  text-align: center;
+  margin: 0 5px;
+}
+
+.navbar__linksContainer li:hover {
+  background-color: rgba(200, 196, 196, 0.117);
+  opacity: 0.8;
+}
+
+.navbar__linksContainer li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.navbar__linksContainer li .active {
+  color: rgb(163, 7, 7);
+  text-decoration: underline;
+}
