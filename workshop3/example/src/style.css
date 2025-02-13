@@ -125,3 +125,8 @@ section .banner {
 .category4 {
   color: #ce65d5;
 }
+
+img {
+  width: 350px;
+  height: 300px;
+}

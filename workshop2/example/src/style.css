@@ -43,3 +43,8 @@ main .shopping-item {
   height: 30rem;
 }
 
+img {
+  width: 350px;
+  height: 300px;
+}
+
